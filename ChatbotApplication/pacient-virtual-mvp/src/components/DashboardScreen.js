@@ -84,13 +84,13 @@ function DashboardScreen() {
       {/* CREATE Button */}
       <div className="dashboard-actions">
         <button className="cta-button" onClick={() => setIsModalOpen(true)}>
-          + Start a New Case (CREATE)
+          + Start a New Case 
         </button>
       </div>
 
       {/* Active Chats Section (with DELETE) */}
       <section className="session-list">
-        <h3>Active Chats (READ)</h3>
+        <h3>Active Chats</h3>
         {activeSessions.length === 0 ? (
           <p>No active chats. Start a new case!</p>
         ) : (
@@ -118,7 +118,7 @@ function DashboardScreen() {
 
       {/* Completed Chats Section */}
       <section className="session-list">
-        <h3>Completed Chats (READ)</h3>
+        <h3>Completed Chats </h3>
         {completedSessions.length === 0 ? (
           <p>No completed chats yet.</p>
         ) : (
